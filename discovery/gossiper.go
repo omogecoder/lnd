@@ -23,7 +23,7 @@ import (
 )
 
 var (
-	// ErrGossiperShuttingDown is an error that is returned if the gossiper
+	// ErrGossiperShuttingDown is an error that is returned if the gossiper testing
 	// is in the process of being shut down.
 	ErrGossiperShuttingDown = errors.New("gossiper is shutting down")
 
